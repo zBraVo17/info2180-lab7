@@ -1,0 +1,49 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    
+}
+button{
+    display: inline-block;
+    background: #666666;
+    color: #fff;
+}
+
+button,input#country{
+    border: 1px solid #444;
+    padding: 8px 1em;
+}
+h1{
+    
+    background-image: url('Global-Banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Palatino;
+    border-style: solid;
+    border-width: thick;
+    border-color: #000;
+    border-radius: 40px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 8px 16px;
+    -webkit-text-stroke: 1px black;
+}
+#controls, #result{
+    margin: 1em;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    margin-bottom: 8px;
+}
+.error{
+    padding: 5px 0;
+    color: red;
+    border-radius: 4px;
+}
